@@ -2,31 +2,30 @@ import './App.css'
 
 function App() {
   return (
-    <div className="layout-container">
-      <header className="header">
-        Sean Aethan Kleine T. Nunag - WMD3A
-      </header>
+    <div className="container">
+      <div className="header">Sean Aethan Kleine T. Nunag - WMD3A</div>
 
-      <div className="middle-section">
-        <aside className="left-column">
+      <div className="content">
+        <div className="leftColumn">
           <div className="hero">Hero</div>
           <div className="sidebar">Sidebar</div>
-        </aside>
+        </div>
 
-        <main className="right-column">
-          <div className="main-content">
-            <h2>Main Content</h2>
+        <div className="rightColumn">
+          <div className="mainContent"> 
+            Main Content
+            
           </div>
-          <div className="extra-content">Extra Content</div>
-        </main>
+          <div className="extraContent">Extra Content</div>
+        </div>
       </div>
 
-      <div className="bottom-section">
-        <div className="related-images">Related Images</div>
-        <div className="related-posts">Related Posts</div>
+      <div className="relatedContent">
+        <div className="relatedImages">Related Images</div>
+        <div className="relatedPosts">Related Posts</div>
       </div>
 
-      <footer className="footer">Footer</footer>
+      <div className="footer">Footer</div>
     </div>
   )
 }
